@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav1 {
+  display: flex;
+}
+.div-2 {
+  /* background-color: black; */
+  width: 50%;
+  align-items: center;
+}
+.div-3 {
+  /* background-color: lightpink; */
+  width: 50%;
+  text-align: right;
+}
+.div-2 img {
+  width: 10%;
+  border: 2px solid red;
+  border-radius: 60px;
+}
+.div-2 li {
+  list-style: none;
+  padding: 30px;
+  position: relative;
+  left: 20px;
+}
+.div-2 li a {
+  text-decoration: none;
+  color: white;
+}
+.div-2 li a:hover {
+  text-decoration: none;
+  color: red;
+}
+.class-1 {
+  /* justify-content: center; */
+  /* width: 90%; */
+  display: flex;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url(big-img.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
